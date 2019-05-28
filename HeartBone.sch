@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "HeartBone"
 Date "2018/06/28"
-Rev "v1.0.0"
+Rev "v2.0.0"
 Comp "Flywheel Lab"
 Comment1 ""
 Comment2 ""

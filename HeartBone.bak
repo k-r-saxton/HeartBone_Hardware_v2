@@ -25,7 +25,7 @@ F 3 "" H 3300 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HeartBone-rescue:25LC_EEPROM U1
+L HeartBone:25LC_EEPROM U1
 U 1 1 5B3521F6
 P 5450 5450
 F 0 "U1" H 5150 5700 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "" H 5100 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Solutions1:SharpMem_LCD_96x96 DIS1
+L HeartBone:SharpMem_LCD_96x96 DIS1
 U 1 1 5B352697
 P 8500 4050
 F 0 "DIS1" H 8850 2650 60  0000 C CNN
@@ -51,7 +51,7 @@ TOSHIBA TC7S14FU,LF
 Text Notes 8650 4050 0    60   ~ 0
 Sharp has gone EOL :(
 $Comp
-L HeartBone-rescue:PTS810_SJK_250_SMTR_LFS SW2
+L HeartBone:PTS810_SJK_250_SMTR_LFS SW2
 U 1 1 5B3536A8
 P 1900 6100
 F 0 "SW2" H 2050 6210 50  0000 C CNN
@@ -62,7 +62,7 @@ F 3 "" H 1900 6100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HeartBone-rescue:PTS810_SJK_250_SMTR_LFS SW1
+L HeartBone:PTS810_SJK_250_SMTR_LFS SW1
 U 1 1 5B353717
 P 1850 4050
 F 0 "SW1" H 1750 3850 50  0000 C CNN
@@ -762,7 +762,7 @@ Wire Wire Line
 Text Label 4900 4150 2    60   ~ 0
 PGD
 $Comp
-L HeartBone-rescue:CONN_01X01 J2
+L Connector_Generic:Conn_01x01 J2
 U 1 1 5B8C06B2
 P 5100 6700
 F 0 "J2" H 5100 6800 50  0000 C CNN
@@ -773,7 +773,7 @@ F 3 "" H 5100 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HeartBone-rescue:CONN_01X01 J3
+L Connector_Generic:Conn_01x01 J3
 U 1 1 5B8C0716
 P 5100 6850
 F 0 "J3" H 5100 6750 50  0000 C CNN
