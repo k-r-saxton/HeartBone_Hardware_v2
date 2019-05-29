@@ -1,30 +1,25 @@
-Id,Designator,Package,Quantity,Designation,Manufacturer,Part Number,Price,Extended,URL
-1,"C1,C2",C_0603,2,1uF,,,,$0.00,
-2,"C3,C7",C_0603,2,10uF,,,,$0.00,
-3,C4,C_0603,1,0.1uF,,,,$0.00,
-4,"C5,C6",C_0603,2,18pF,,,,$0.00,
-5,DIS1,MOLEX_505110-1092,1,SharpMem_LCD_96x96,Texas Insturments,430BOOST-SHARP96,$20.70,$20.70,
-6,P1,USB_B_VERTICAL,1,USB_B,Harwin,M701-330442,$0.64,$0.64,https://www.mouser.com/ProductDetail/Harwin/M701-330442?qs=%2fha2pyFadui8NnQJpXsVQFrFZMz4lX1o%252bObagF4UZSQRdJ9k0j%2fEXA%3d%3d
-7,P2,Pin_Header_Straight_2x04_Pitch2.54mm,1,CONN_02X04,Amphenol,79425-408HLF,$0.20,$0.20,https://www.mouser.com/ProductDetail/Amphenol-FCI/79425-408HLF?qs=sGAEpiMZZMs%252bGHln7q6pm7pDQLgMxxuyMyQfHXxx35Q%3d
-8,R1,C_0603,1,470K,,,,$0.00,
-9,"R2,R3",C_0603,2,22R,,,,$0.00,
-10,"R4,R5,R7,R8,R9",C_0603,5,220R,,,,$0.00,
-11,"R6,R10,R11,R12,R13",C_0603,5,10K,,,,$0.00,
-12,"SW1,SW2",PTS810,2,PTS810_SJK_250_SMTR_LFS,C&K,PTS810SJK250SMTRLFS,$0.28,$0.55,https://www.mouser.com/ProductDetail/CK/PTS810SJK250SMTRLFS?qs=%2fha2pyFadui5%252btbI0NZhLyrOtiXyeWP5PJ1O8hXjbyrmrWl5TOXX8RmXuWBgYr1M
-13,U1,SOIJ-8_5.3x5.3mm_Pitch1.27mm,1,25LC_EEPROM,Microchip,25LC1024T-I/SM,$2.99,$2.99,https://www.mouser.com/ProductDetail/Microchip-Technology/25LC1024T-I-SM?qs=sGAEpiMZZMuVhdAcoizlRX0wR2PvTykKaSKbOo20C%2fY%3d
-14,U2,SSOP-5-0.65_PITCH,1,Schmitt_Inverter_Single,Toshiba,"TC7S14FU,LF",$0.26,$0.26,https://www.mouser.com/ProductDetail/Toshiba/TC7S14FULF?qs=sGAEpiMZZMutVWjHE%2fYQw7SFN7e7%252b9LjLX5Q%2fPPnkNA%3d
-15,U3,SSOP-28_5.3x10.2mm_Pitch0.65mm,1,PIC32,Microchip,PIC32MX250F128B-I/SS,$3.63,$3.63,https://www.mouser.com/ProductDetail/Microchip-Technology/PIC32MX250F128B-I-SS?qs=sGAEpiMZZMto2ohCYbAIUblmHtgOQIwfvZjdgQH76W4%3d
-16,D1,C_0603,1,RED LED,,,,$0.00,
-17,J1,Pin_Header_Straight_1x05_Pitch2.00mm,1,CONN_01X05,DNP,DNP,,$0.00,
-18,"J2,J3",NPT_125mil,2,CONN_01X01,DNP,DNP,,$0.00,
-19,Y1,ECS-080-18-23G-JGN-TR_8MHz_60x35,1,,ECS,ECS-080-18-23G-JGN-TR,$0.61,$0.61,https://www.mouser.com/ProductDetail/ECS/ECS-080-18-23G-JGN-TR?qs=sGAEpiMZZMsBj6bBr9Q9abMK2mGYOCsJ9Jg7P4K9SzKLkpCuZDrscA%3d%3d
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,Total,$29.58,
-,,,,,,,,,
-,,,,,,,Total -LCD,$8.88,
-,,,,,,,,,
-,,,,,,,PCB,$10.00,
-,,,,,,,Grand Total,$39.58,
-,,,,3x3 Grid,$356.23,,,,
-,,,,4x4 Grid,$633.30,,,,
+Reference, Value, Footprint,Manufacturer,Part Number
+BT1,S2B-PH-SM4-TB(LF)(SN),Solutions:4UCON-0217-20519,JST Sales,S2B-PH-SM4-TB(LF)(SN)
+"C1,C2,C8,C9",1uF,Capacitors_SMD:C_0603,,
+"C3,C7",10uF,Capacitors_SMD:C_0603,,
+"C4,C10,C11",0.1uF,Capacitors_SMD:C_0603,,
+"C5,C6",18pF,Capacitors_SMD:C_0603,,
+D1,LED,Capacitors_SMD:C_0603,,
+"D2,D3",CDBU0130L,Diodes_SMD:D_0603,Comchip,CDBU0130L
+DIS1,505110-1092,Solutions:MOLEX_505110-1092,Molex,505110-1092
+J1,CONN_01X05,DNP,,
+J2,CONN_01X01,DNP,,
+J3,CONN_01X01,DNP,,
+J4,10118193-0001LF,Solutions:10118193_microUSB,Amphenol,10118193-0001LF
+R1,470K,Capacitors_SMD:C_0603,,
+"R6,R10,R11,R12",10K,Capacitors_SMD:C_0603,,
+"R2,R3",22R,Capacitors_SMD:C_0603,,
+"R4,R5,R7,R8,R9,R13",220R,Capacitors_SMD:C_0603,,
+"SW1,SW2",PTS810_SJK_250_SMTR_LFS,Solutions:PTS810,C&K,PTS810_SJK_250_SMTR_LFS
+SW3,SSSS810701,Solutions:SSSS810701_ALPS_SPDT,Alps,SSSS810701
+U1,25LC1024T-I/SM,Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm,Microchip,25LC1024T-I/SM
+U2,"TC7S14FU,LF",Solutions:SSOP-5-0.65_PITCH,Toshiba,"TC7S14FU,LF"
+U3,PIC32MX250F128B-I/SS,Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm,Microchip,PIC32MX250F128B-I/SS
+U4,TLV76033DBZR,TO_SOT_Packages_SMD:SOT-23,Texas Instruments,TLV76033DBZR
+U5,MCP73831-2-OT,TO_SOT_Packages_SMD:SOT-23-5,Microchip,MCP73831-2-OT
+Y1,ECS-080-18-23G-JGN-TR,Solutions:ECS-080-18-23G-JGN-TR_8MHz_60x35,ECS,ECS-080-18-23G-JGN-TR

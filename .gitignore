@@ -2,3 +2,6 @@
 *.bak
 HeartBone.kicad_pcb-bak
 HeartBone-cache.lib
+*.xml
+*.csv#
+
