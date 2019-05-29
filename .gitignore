@@ -1,0 +1,4 @@
+*.net
+*.bak
+HeartBone.kicad_pcb-bak
+HeartBone-cache.lib
